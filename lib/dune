@@ -2,3 +2,8 @@
  (name approx)
  (public_name approx)
  (libraries base))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A))))
