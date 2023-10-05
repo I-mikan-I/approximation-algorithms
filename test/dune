@@ -1,0 +1,3 @@
+(test
+ (name approximation_algorithms)
+ (libraries approx stdio))

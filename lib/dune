@@ -1,0 +1,4 @@
+(library
+ (name approx)
+ (public_name approx)
+ (libraries base))
