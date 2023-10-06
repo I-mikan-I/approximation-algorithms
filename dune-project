@@ -19,7 +19,13 @@
  (name approx)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune base stdio)
+ (depends
+  ocaml
+  dune
+  base
+  stdio
+  ppx_jane
+  (ppx_inline_test :with-test))
  (tags
   (topics "to describe" your project)))
 
