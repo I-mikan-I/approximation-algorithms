@@ -25,6 +25,7 @@
   base
   stdio
   ppx_jane
+  (ppx_expect :with-test)
   (ppx_inline_test :with-test))
  (tags
   (topics "to describe" your project)))
